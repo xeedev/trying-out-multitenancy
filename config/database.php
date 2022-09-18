@@ -34,6 +34,21 @@ return [
     */
 
     'connections' => [
+        'tenant' => [
+            'driver' => 'mysql',
+            'database' => null,
+            'host' => '127.0.0.1',
+            'username' => 'root',
+            'password' => '',
+        ],
+
+        'landlord' => [
+            'driver' => 'mysql',
+            'database' => 'landlord',
+            'host' => '127.0.0.1',
+            'username' => 'root',
+            'password' => '',
+        ],
 
         'sqlite' => [
             'driver' => 'sqlite',
